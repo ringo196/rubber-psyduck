@@ -1,0 +1,64 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  height: 100%
+}
+body {
+  background-image:url(https://s3-us-west-1.amazonaws.com/rubber-psyduck/office.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+  font-family: Helvetica;
+}
+
+
+#intro {
+  font-size: 40px;
+  max-width: 20%;
+  max-height: 10%;
+  height: 10%;
+  text-align: center;
+  background-color: red;
+
+}
+#logo {
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: white;
+  padding: 10px 10px 10px 10px;
+}
+
+#imgContainer{
+  display: flex;
+  margin-left: 12%;
+  /*flex-flow: column-reverse;*/
+  align-items: flex-end;
+}
+
+#psyduck {
+  position: fixed;
+  bottom: -70px;
+  cursor: pointer;
+}
+
+#phraseContainer {
+  position: relative;
+  text-align: center;
+  /*justify-content: right;*/
+  margin-left: 240px;
+}
+
+#text {
+  position: absolute;
+  display: inline-block;
+  align-self: center;
+  max-width: 90%;
+  width: 84%;
+  font-size: 38pt;
+  top: 11%;
+  left: 0%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
